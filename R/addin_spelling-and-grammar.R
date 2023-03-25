@@ -13,7 +13,7 @@
 #' \dontrun{addin_spelling_grammar()}
 addin_spelling_grammar <- function() {
   gpt_edit(
-    model = "text-davinci-edit-001",
+    model = "gpt-3.5-turbo",
     instruction = "Improve spelling and grammar of this text",
     temperature = 0.1
   )
